@@ -1,0 +1,2 @@
+---
+BUNDLE_BUILD__MYSQL2: "--with-mysql-cli-bin=where-mysql-is-located"
