@@ -64,7 +64,6 @@ export function ExpenseForm({
     try {
       await createCategory(category);
       setIsModalOpen(false);
-      console.log(fetchCategories());
     } catch (error) {
       console.error("Error creating category:", error);
       throw error;
